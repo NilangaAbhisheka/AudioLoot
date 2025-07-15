@@ -107,6 +107,13 @@
   animation: logo-pulse 3s ease-in-out infinite;
 }
 
+.logo img {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+  display: block;
+}
+
 @keyframes logo-pulse {
   0%, 100% { 
     filter: drop-shadow(0 0 10px var(--theme-glow-primary));

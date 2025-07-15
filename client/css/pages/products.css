@@ -20,7 +20,6 @@
   -webkit-text-fill-color: transparent;
   animation: gradient-animation 3s ease infinite;
 }
-
 .products-layout {
   display: grid;
   grid-template-columns: 280px 1fr;

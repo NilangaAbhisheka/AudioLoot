@@ -309,3 +309,12 @@ img {
 .rounded-lg { border-radius: var(--radius-lg); }
 .rounded-xl { border-radius: var(--radius-xl); }
 .rounded-full { border-radius: var(--radius-full); }
+
+.page-content {
+  margin-top: calc(var(--header-height) + 20px);
+}
+@media (max-width: 600px) {
+  .page-content {
+    margin-top: calc(var(--header-height) + 10px);
+  }
+}

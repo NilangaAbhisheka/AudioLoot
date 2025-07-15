@@ -117,8 +117,8 @@ class AudioLootApp {
       <div class="mobile-nav-links">
         <a href="index.html">Home</a>
         <a href="products.html">Products</a>
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact Us</a>
       </div>
       <div class="mobile-auth-section">
         ${this.isAuthenticated ? 
